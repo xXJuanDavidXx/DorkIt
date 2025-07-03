@@ -1,4 +1,4 @@
-# NinjaDorks
+# DorKit
 
 NinjaDorks es una herramienta de automatización para realizar búsquedas avanzadas (Google Dorks) de manera eficiente y organizada. Permite realizar búsquedas personalizadas, exportar resultados y descargar archivos específicos encontrados durante la búsqueda.
 
@@ -18,14 +18,14 @@ NinjaDorks es una herramienta de automatización para realizar búsquedas avanza
 1. Crear una API Key de Google y un ID de motor de búsqueda personalizado
 2. Ejecutar la herramienta con la opción de configuración:
 ```bash
-python NinjaDorks.py -c
+python DORKIT.py -c
 ```
 
 ## Uso
 
 ### Sintaxis básica
 ```bash
-python NinjaDorks.py -q "tu_consulta" [opciones]
+python DORKIT.py -q "tu_consulta" [opciones]
 ```
 
 ### Opciones disponibles
@@ -48,27 +48,27 @@ python NinjaDorks.py -q "tu_consulta" [opciones]
 
 1. Búsqueda básica:
 ```bash
-python NinjaDorks.py -q "intitle:\"index of\" \"backup\""
+python DORKIT.py -q "intitle:\"index of\" \"backup\""
 ```
 
 2. Exportar resultados a JSON:
 ```bash
-python NinjaDorks.py -q "filetype:pdf confidential" --json resultados.json
+python DORKIT.py -q "filetype:pdf confidential" --json resultados.json
 ```
 
 3. Búsqueda con múltiples páginas:
 ```bash
-python NinjaDorks.py -q "site:ejemplo.com intext:password" --pages 3
+python DORKIT.py -q "site:ejemplo.com intext:password" --pages 3
 ```
 
 4. Generar dork con IA:
 ```bash
-python NinjaDorks.py --generar-dork "encontrar archivos de configuración expuestos"
+python DORKIT.py --generar-dork "encontrar archivos de configuración expuestos"
 ```
 
 5. Descargar archivos específicos:
 ```bash
-python NinjaDorks.py -q "filetype:pdf secret" --download pdf
+python DORKIT.py -q "filetype:pdf secret" --download pdf
 ```
 
 ## Notas de Seguridad
