@@ -1,6 +1,6 @@
 # DorKit
 
-NinjaDorks es una herramienta de automatización para realizar búsquedas avanzadas (Google Dorks) de manera eficiente y organizada. Permite realizar búsquedas personalizadas, exportar resultados y descargar archivos específicos encontrados durante la búsqueda.
+DorKit es una herramienta de automatización para realizar búsquedas avanzadas (Google Dorks) de manera eficiente y organizada. Permite realizar búsquedas personalizadas, exportar resultados y descargar archivos específicos encontrados durante la búsqueda.
 
 ## Características
 
